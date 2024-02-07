@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 #define PI 3.14159
-char color(double lambda) {
+char *color(double lambda) {
   if (lambda >= 380e-9 && lambda <= 450e-9) {
     return "violet";
   } else if (lambda > 450e-9 && lambda <= 485e-9) {
